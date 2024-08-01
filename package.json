@@ -1,20 +1,20 @@
 {
-  "name": "natterstefan",
+  "name": "seung6lee",
   "version": "1.2.0",
-  "description": "Stefan Natter (@natterstefan)'s business card",
+  "description": "Seungjun Lee (@seung6lee)'s digital business card",
   "main": "./bin/card.js",
   "bin": {
     "natterstefan": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/natterstefan/businesscard.git"
+    "url": "https://github.com/seung6lee/npx-card.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [],
-  "author": "Stefan Natter",
+  "author": "Seungjun Lee",
   "license": "MIT",
   "dependencies": {
     "boxen": "^5.0.0",

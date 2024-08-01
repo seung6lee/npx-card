@@ -14,27 +14,30 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('Stefan Natter'),
-  handle: chalk.cyan('@natterstefan'),
-  labelWork: chalk.white.bold('      Work:'),
-  work: chalk.white('CEO and Co-Founder of marqant digital'),
-  labelTwitter: chalk.white.bold('   Twitter:'),
-  twitter: chalk.cyan('https://twitter.com/natterstefan'),
+  name: chalk.white('Seungjun Lee'),
+  handle: chalk.cyan('@seung6lee'),
+  labelWork: chalk.white.bold('      Job:'),
+  work: chalk.white('A 10th grade student'),
+  labelFutureWork: chalk.white.bold('      Future Job:'),
+  futureWork: chalk.white('CEO, Neuroengineer'),
+  labelInstagram: chalk.white.bold('   Instagram:'),
+  instagram: chalk.cyan('https://www.instagram.com/seung6lee'),
   labelGitHub: chalk.white.bold('    GitHub:'),
-  github: chalk.cyan('https://github.com/natterstefan'),
+  github: chalk.cyan('https://github.com/seung6lee'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
-  linkedin: chalk.cyan('https://linkedin.com/in/natterstefan'),
+  linkedin: chalk.cyan('Coming Soon'),
   labelWeb: chalk.white.bold('       Web:'),
-  web: chalk.cyan('https://natterstefan.com'),
+  web: chalk.cyan('https://seung6lee.com'),
   labelCard: chalk.white.bold('      Card:'),
-  npx: chalk.white('npx natterstefan'),
+  npx: chalk.white('npx seung6lee'),
 }
 
 // Actual strings we're going to output
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const twittering = `${data.labelTwitter}  ${data.twitter}`
+const futureWorking = `${data.labelFutureWork}  ${data.futureWork}`
+const instagraming = `${data.labelInstagram}  ${data.instagram}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
@@ -48,7 +51,9 @@ const output =
   newline +
   working +
   newline +
-  twittering +
+  futureWorking +
+  newline +
+  instagraming +
   newline +
   githubing +
   newline +
