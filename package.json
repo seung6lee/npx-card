@@ -1,6 +1,6 @@
 {
   "name": "seung6lee",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Seungjun Lee (@seung6lee)'s digital business card",
   "main": "./bin/card.js",
   "bin": {
